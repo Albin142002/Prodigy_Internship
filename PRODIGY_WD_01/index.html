@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Movies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/BG1.jpg" alt="Movie 1">
+                    <img src="assets/backgrounds/BG2.jpg" alt="Movie 2">
+                    <img src="assets/backgrounds/BG3.jpg" alt="Movie 3">
+                    <img src="assets/backgrounds/BG4.jpg" alt="Movie 4">
+                    <img src="assets/backgrounds/BG5.jpg" alt="Movie 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">MOVIES</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>Bad Boys: Ride or Die</h2>
+                    <h3>2024 ‧ Action/Comedy</h3>
+                    <img src="assets/gamess/M1.jpg" alt="Call of Duty" class="game-image" data-img-src="M1.jpg">
+                    <p>Release date: 7 June 2024 (USA)
+                        Directors: Adil El Arbi, Bilall Fallah
+                        Nominations: Bandung Film Festival for Imported FilmS
+                        Cinematography: Robrecht Heyvaert
+                        Distributed by: Sony Pictures Entertainment Japan
+                        Editors: Dan Lebental, Asaf Eisenberg</p>
+                </div>
+                <div class="game-block">
+                    <h2>The Fall Guy</h2>
+                    <h3>2024 ‧ Action/Comedy</h3>
+                    <img src="assets/gamess/M2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="M2.jpg">
+                    <p>Release date: 3 May 2024 (USA)
+                        Director: David Leitch
+                        Nominations: Bandung Film Festival for Imported Film · See more
+                        Cinematography: Jonathan Sela
+                        Costume design: Sarah Evelyn Bram
+                        Distributed by: Universal Pictures</p>
+                </div>
+                <div class="game-block">
+                    <h2>Deadpool & Wolverine</h2>
+                    <h3>2024 ‧ Action/Comedy</h3>
+                    <img src="assets/gamess/M3.jpg" alt="Dead by Daylight" class="game-image" data-img-src="M3.jpg">
+                    <p>Release date: 25 July 2024 (UK)
+                        Director: Shawn Levy
+                        Awards: Critics Choice Movie Award for Best Comedy, Bandung Film Festival for Imported Film
+                        Nominations: Golden Globe Award for Cinematic and Box Office Achievement · See more
+                        Art directors: Alex Bowens, Victoria Allwood, Amber King, Katie Money
+                        Casting director: Sarah Finn</p>
+                </div>
+                <div class="game-block">
+                    <h2>A Quiet Place: Day One</h2>
+                    <h3>2024 ‧ Horror/Sci-fi</h3>
+                    <img src="assets/gamess/M4.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="M4.jpg">
+                    <p>Release date: 28 June 2024 (UK)
+                        Director: Michael Sarnoski
+                        Nominations: Bandung Film Festival for Imported Film, NAACP Image Award for Outstanding Actress in a Motion Picture
+                        Art directors: Sophie Bridgman, Albert Mccausland
+                        Casting director: Kharmel Cochrane
+                        Cinematography: Patrick Scola</p>
+                </div>
+                <div class="game-block">
+                    <h2>Furiosa: A Mad Max Saga</h2>
+                    <h3>2024 ‧ Action/Adventure</h3>
+                    <img src="assets/gamess/M5.jpg" alt="Once Human" class="game-image" data-img-src="M5.jpg">
+                    <p>Release date: 23 May 2024 (Australia)
+                        Director: George Miller
+                        Awards: AACTA Award Best Cinematography in Film · See more
+                        Nominations: AACTA Award for Best Film · See more
+                        Art directors: Jacinta Leong, Nicholas Dare
+                        Budget: 16.8 crores USD</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/albinpaul2002" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/Albin142002" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
