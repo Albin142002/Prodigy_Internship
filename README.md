@@ -2,4 +2,5 @@ The following are the Links to my Project tasks I had done during my internship 
 
 [PRODIGY_WD_01 [DEMO 1]](https://albin142002.github.io/Prodigy_Internship/PRODIGY_WD_01)
 
-hhh
+[PRODIGY_WD_02 [DEMO 2]](https://albin142002.github.io/Prodigy_Internship/PRODIGY_WD_02)
+
